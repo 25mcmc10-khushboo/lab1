@@ -1,0 +1,19 @@
+.product-card {
+  background: #fff;
+  border: 1px solid #eaeaea; /* Box Model: Border */
+  padding: 20px;             /* Box Model: Padding */
+  width: 280px;
+  border-radius: 12px;
+  transition: transform 0.2s;
+}
+
+.product-card:hover {
+  transform: translateY(-5px); /* Just for a little "pop" */
+}
+
+.price {
+  font-weight: bold;
+  color: #2ecc71;
+  display: block;
+  margin-top: 10px;          /* Box Model: Margin */
+}

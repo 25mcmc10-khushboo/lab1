@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive To-Do List</title>
+    <link rel="stylesheet" href="task2.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Task Manager</h2>
+        
+        <div class="input-section">
+            <input type="text" id="taskName" placeholder="Task description...">
+            <input type="date" id="taskDate">
+            <button id="addBtn" onclick="addTask()">Add Task</button>
+        </div>
+
+        <div class="filter-section">
+            <button onclick="setFilter('all')" id="filter-all" class="active">All</button>
+            <button onclick="setFilter('pending')" id="filter-pending">Pending</button>
+            <button onclick="setFilter('completed')" id="filter-completed">Completed</button>
+        </div>
+
+        <ul id="todoList"></ul>
+    </div>
+
+    <script src="task2.js"></script>
+</body>
+</html>
