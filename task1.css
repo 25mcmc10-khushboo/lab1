@@ -1,0 +1,34 @@
+/* External CSS */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+}
+
+/* CSS Grid for the Main Content & Sidebar */
+.custom-grid-wrapper {
+    display: grid;
+    grid-template-columns: 3fr 1fr; /* 3 parts content, 1 part sidebar */
+    gap: 30px;
+}
+
+/* Flexbox for Sidebar list items */
+.sidebar ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #e94560;
+    font-weight: bold;
+}
+
+/* Responsive adjustments using Media Queries */
+@media (max-width: 992px) {
+    .custom-grid-wrapper {
+        grid-template-columns: 1fr; /* Stack on mobile/tablets */
+    }
+}
