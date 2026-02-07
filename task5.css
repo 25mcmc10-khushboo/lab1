@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: hwb(210 96% 2%);
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.todo-container {
+    background: #2bef04;
+    padding: 20px;
+    width: 420px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+    text-align: center;
+}
+
+input, button, select {
+    width: 100%;
+    padding: 8px;
+    margin: 6px 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: hsl(142, 97%, 47%);
+    margin: 6px 0;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+.task-left {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: green;
+}
+
+.btn {
+    cursor: pointer;
+}
