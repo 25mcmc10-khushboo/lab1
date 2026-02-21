@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+
+    <book>
+        <title>Winning People Without Losing Yourself</title>
+        <author> Ankur Warikoo</author>
+        <genre> Career</genre>
+        <price>499</price>
+        <publish_date>2000-04-15</publish_date>
+    </book>
+
+    <book>
+        <title>Clean Code</title>
+        <author>Robert Martin</author>
+        <genre>Programming</genre>
+        <price>550</price>
+        <publish_date>2008-08-01</publish_date>
+    </book>
+
+    <book>
+        <title> The Great Indian Novel</title>
+        <author> Shashi Tharoor</author>
+        <genre> Satire</genre>
+        <price>850</price>
+        <publish_date>1998-01-01</publish_date>
+    </book>
+     <book>
+        <title>  Paradise Lost</title>
+        <author>  John Milton</author>
+        <genre>Epic Poetry</genre>
+        <price>650</price>
+        <publish_date>2003-02-01</publish_date>
+    </book> 
+     <book>
+        <title>  The House of Blue Mangoes</title>
+        <author>  David Davidar</author>
+        <genre> Literary Fiction</genre>
+        <price>750</price>
+        <publish_date>2016-02-01</publish_date>
+    </book> 
+    
+
+</catalog>
+    
