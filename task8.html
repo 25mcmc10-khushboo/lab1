@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MY_BOOK_STORE</title>
+
+    
+    <link rel="stylesheet" href="task8.css">
+
+    
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    
+    <script src="task8.js" defer></script>
+</head>
+
+<body>
+
+<h2>JYOTI_BOOK_STORE</h2>
+
+<div class="filters">
+    Genre:
+    <select id="genreFilter">
+        <option value="all">All</option>
+    </select>
+
+    Author:
+    <select id="authorFilter">
+        <option value="all">All</option>
+    </select>
+
+    <div class="a">
+    price:
+    <input type="number" id="minPrice" placeholder="Min">
+    <input type="number" id="maxPrice" placeholder="Max">
+    </div>
+</div>
+
+<table id="bookTable">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Genre</th>
+            <th>Price</th>
+            <th>Publication Date</th>
+        </tr>
+    </thead>
+    <tbody></tbody>
+</table>
+
+</body>
+</html>
