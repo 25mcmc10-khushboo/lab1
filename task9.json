@@ -1,0 +1,15 @@
+[
+ {"type":"text","label":"Name","id":"name",",required":true},
+ {"type":"email","label":"Email","id":"email","required":true},
+ {"type":"password","label":"Password","id":"password","required":true},
+
+ {"type":"select","label":"Country","id":"country","required":true,
+  "options":["Select","India","USA","Canada","Jpan","Chaina"]},
+
+ {"type":"select","label":"State","id":"state","required":true,
+  "class":"hidden",
+  "options":["Patna","Jharkhand","Kerela","Panjab"]},
+
+ {"type":"checkbox","label":"Student?","id":"student"},
+ {"type":"text","label":"College Name","id":"college","class":"hidden"}
+]
