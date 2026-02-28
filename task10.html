@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Task 10 - jQuery Tab Plugin</title>
+
+    
+    <link rel="stylesheet" href="task10.css">
+
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    
+    <script src="task10.js"></script>
+</head>
+<body>
+
+<div class="tabs" id="myTabs">
+    <ul class="tab-links">
+        <li data-tab="home">Home</li>
+        <li data-tab="about">About</li>
+        <li data-tab="contact">Contact</li>
+    </ul>
+
+    <div class="tab-content">
+        <div id="home" class="tab-panel">
+            <h2>Home</h2>
+            <p>Welcome to the official homepage of Microsoft..</p>
+        </div>
+
+        <div id="about" class="tab-panel">
+            <h2>About</h2>
+            <p>  Microsoft develops software, hardware, and cloud-based services that help individuals 
+            and organizations improve productivity and achieve more.</p>
+
+            <p> Microsoft develops software, hardware, and cloud-based services that help individuals 
+            and organizations improve productivity and achieve more</p>
+
+            <p>  Some of its popular products include Windows, Microsoft 365, Azure Cloud Services, and Xbox.</p>
+
+            <a href="https://www.microsoft.com" target="_blank">
+                www.microsoft.com
+            </a>
+        </div>
+
+        <div id="contact" class="tab-panel">
+            <h2>Contact</h2>
+            <p> Microsoft India<br>
+                ISB Road, Gachibowli<br>
+                Hyderabad, Telangana 500032<br>
+                 India<br>
+        Phone: +91 40 6694 4444</p>
+        </div>
+    </div>
+</div>
+
+<script>
+$(document).ready(function(){
+    $('#myTabs').customTabs({
+        activeClass: 'active-tab',
+        animationSpeed: 400,
+        defaultTab: 0
+    });
+});
+</script>
+
+</body>
+</html>

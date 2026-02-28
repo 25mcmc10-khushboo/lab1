@@ -1,0 +1,41 @@
+body{
+    font-family: Arial;
+}
+
+.tabs{
+    width: 600px;
+    margin: 50px auto;
+}
+
+.tab-links{
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.tab-links li{
+    padding: 10px 20px;
+    background: hsl(0, 98%, 49%);
+    cursor: pointer;
+    margin-right: 5px;
+    transition: 0.3s;
+}
+
+.tab-links li:hover{
+    background: lab(86.28% -84.1 81.65);
+}
+
+.active-tab{
+    background: hsl(211, 96%, 47%);
+    color: #02ec06;
+}
+
+.tab-content{
+    border: 1px solid lab(93.97% -29.37 90.96);
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.tab-panel{
+    display: none;
+}
